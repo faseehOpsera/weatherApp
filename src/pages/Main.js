@@ -2,8 +2,7 @@ import React, { Component , Fragment } from 'react';
 import { getCityWeather, getGeoCityWeather} from "../actions/getWeatherAction";
 import { connect } from "react-redux";
 import PropTypes from  "prop-types";
-import { Sun, MapPin , Cloud, CloudRain, CloudSnow } from 'react-feather';
-import Error from './Error';
+import { MapPin , Cloud, CloudRain, CloudSnow } from 'react-feather';
 import OfflinePage from './OfflinePage';
 import Axios from 'axios';
 
